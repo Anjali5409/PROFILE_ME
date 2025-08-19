@@ -1,0 +1,87 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    ul{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+}
+li{ display: inline;
+    margin: 20px;
+    
+    color: aliceblue;
+}
+li:hover{
+    color:yellow;
+    cursor: pointer;
+}
+header {
+      background:black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header img {
+      width: 100px;
+      height: 120px;
+      border-radius: 100%;
+      margin-top: 10px;
+    }
+h1:hover{
+    color:pink;
+    cursor: pointer;
+}
+h2 {
+      border-bottom: 2px solid black;
+      padding-bottom: 5px; 
+      text-align: center;
+}
+h1 {
+      border-bottom: 2px solid black;
+      padding-bottom: 5px; 
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #777;
+      padding: 8px;
+      text-align: center;
+      height:10vh;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    input, textarea {
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+    button {
+      background: BLUE;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #4582a0;
+      font-family: monospace;
+    }
